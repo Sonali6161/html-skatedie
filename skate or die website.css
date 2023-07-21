@@ -1,3 +1,8 @@
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
 .jumbotron {
     text-align: center;
     background: none;
@@ -57,4 +62,12 @@ h5.modal-title {
 }
 .socialWrappar {
     margin: auto;
+}
+@media (max-width: 600px) {
+    .sectionLight {
+        padding: 10px;
+    }
+    .display-3 {
+        font-size: 35px;
+    }
 }
